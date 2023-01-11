@@ -1,0 +1,60 @@
+.footer {
+    width: 100%;
+   
+   
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: 200px;
+
+
+
+    position: fixed;
+  left: 0;
+  bottom: 0;
+ 
+
+
+
+  }
+
+  .leftPanel{
+    float:left;
+    margin-top:50px;
+  }
+  .copyright{
+    margin-left: auto; 
+    margin-right: 0;
+    float:right;
+  }
+  .socialMedia svg {
+    color: white;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+  
+  .footer p {
+    color:black;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .footer svg {
+      color:white;
+      font-size: 50px;
+    }
+  }
+  .row{
+    display: inline;
+      margin : -10px;
+     
+      padding:10px;
+      float:right;
+     
+  }
+  
+  .row div{
+      margin:10px;
+  }

@@ -1,0 +1,53 @@
+.navbar {
+    width: 100%;
+   font-weight:800;
+  
+ 
+  }
+  
+  .links:active {
+    color: wheat;
+  }
+  .btn:focus{
+    background:wheat;
+    border-radius: 25px;
+  }
+  .btn:active{
+    color:wheat;
+    border-radius: 25px;
+  }
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+
+    cursor: pointer;
+  }
+  
+  /* Style the active class (and buttons on mouse-over) */
+ .btn:hover {
+    background-color: wheat;
+    border-radius: 25px;
+    
+  }
+  .btn .active{
+    background-color: wheat;
+  }
+
+  .links {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    margin-left: auto; 
+margin-right: -25px;
+  }
+  
+  .links a {
+    margin-left:75px;
+    text-decoration: none;
+    color:black;
+   
+    font-size: 25px;
+  }
