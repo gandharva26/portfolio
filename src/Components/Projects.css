@@ -24,6 +24,8 @@
   /* MENU ITEM STYLING */
   
   .projectItem {
+    z-index: 1;
+    border: 2px solid;
     background:wheat;
     border-radius: 15px;
     width: 300px;

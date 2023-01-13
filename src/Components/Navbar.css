@@ -1,53 +1,151 @@
+
+
 .navbar {
-    width: 100%;
-   font-weight:800;
-  
- 
-  }
-  
-  .links:active {
-    color: wheat;
-  }
-  .btn:focus{
-    background:wheat;
-    border-radius: 25px;
-  }
-  .btn:active{
-    color:wheat;
-    border-radius: 25px;
-  }
-  .btn {
-    border: none;
-    outline: none;
-    padding: 10px 16px;
-
-    cursor: pointer;
-  }
-  
-  /* Style the active class (and buttons on mouse-over) */
- .btn:hover {
-    background-color: wheat;
-    border-radius: 25px;
+ align-items: center;
+      width: 100%;
+     font-weight:800;
     
+   
+    }
+  
+    .navbar-collapse.collapse {
+      display: block!important;
+      }
+      
+      .navbar-nav>li, .navbar-nav {
+      float: left !important;
+      }
+      
+      
+      .navbar-nav.navbar-right:last-child {
+      
+      }
+      
+      .navbar-right {
+      float: right!important;
+      }
+  
+    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+ 
+    .links{
+      margin: auto;
+      width: 50%;
+    }
+    .links:active {
+      color: wheat;
+    }
+    .btn:focus{
+      border:2px solid black;
+      background:wheat;
+      border-radius: 25px;
+    }
+    .btn:active{
+      color:wheat;
+      border-radius: 25px;
+    }
+    .btn {
+      border: none;
+      outline: none;
+      padding: 2%;
+  
+      cursor: pointer;
+    }
+    
+    /* Style the active class (and buttons on mouse-over) */
+   .btn:hover {
+      background-color: wheat;
+      border-radius: 25px;
+      
+    }
+    .btn .active{
+      background-color: wheat;
+    }
+  
+    .links {
+     
+      display: flex;
+      align-items: center;
+    }
+    .logo{
+   
+ 
+    }
+    
+    .links a {
+      
+    
+      text-decoration: none;
+      color:black;
+     
+      font-size: 20px;
+    }
+  
+    
+    
+.toggleButton {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 50px;
+}
+.toggleButton button {
+ 
+  background-color: transparent;
+  border: none;
+  color:black;
+  cursor: pointer;
+}
+
+#open {
+  height: 10%vh;
+}
+
+#open .links {
+  flex-direction: column;
+  justify-content: flex-start;
+ 
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar a {
+    width: 70px;
   }
-  .btn .active{
-    background-color: wheat;
+}
+
+@media only screen and (max-width: 600px) {
+  .toggleButton {
+    display: flex;
+  }
+  #close a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .toggleButton {
+    display: none;
   }
 
-  .links {
-    margin-right: 50px;
-    display: flex;
-    align-items: center;
+  .hiddenLinks {
+    display: none;
   }
-  .logo{
-    margin-left: auto; 
-margin-right: -25px;
+
+  #open {
+    height: 10%;
   }
+
+  #open .links {
+    flex-direction: row;
+  }
+}
   
-  .links a {
-    margin-left:75px;
-    text-decoration: none;
-    color:black;
-   
-    font-size: 25px;
-  }

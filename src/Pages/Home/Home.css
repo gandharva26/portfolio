@@ -1,9 +1,34 @@
 .home {
+    height:100%;
     width: 100%;
     align-items: center;
-  
-    
+ 
   }
+  .slider-item {
+    text-align: center;
+    width: 100%;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  .slider-item img {
+    max-height: 600px;
+  }
+  .emailbutton {
+   font-family: 'Lato';
+    display:block;
+    font-size: 15px;
+
+    border-radius: 25px;
+    text-decoration:None;
+    background-color: black;
+    border: None !important;
+    color: white;
+    cursor:pointer;
+   padding:2%;
+    
+   }
   .content{display: flex;}
   .abt{
     width:500px;
@@ -21,6 +46,11 @@
    
     color: black;
   }
+  .picture{
+    margin-top:1%;
+    width:90%;
+    height:20%;
+  }
   
   .about h2 {
    
@@ -30,7 +60,7 @@
   }
   
   .about .prompt {
-    width: 40%;
+    width: 70%;
     font-size: 30px;
   }
   .prompt svg {
@@ -56,22 +86,29 @@
     list-style: none;
     width: 60%;
   }
-  .picture{
-margin-left:5%;
-  }
+
+  .carousel{
+   
+    width: 100% !important;
+    height: 100%;
+    margin-left:5%; 
+   
+}
+
+
   .list span {
     font-size: 20px;
   }
   
   @media only screen and (max-width: 600px) {
     .about h2 {
-      font-size: 40px;
+      font-size: 20px;
     }
   
     .about .prompt {
       margin-top: 10px;
       font-size: 20px;
-      width: 80%;
+      width: 60%;
     }
   
     .skills {
