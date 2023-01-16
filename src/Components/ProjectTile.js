@@ -6,7 +6,7 @@ export const ProjectTile = (props) => {
     <div className="projectItem">
     <h1> {props.name}</h1>
     <a href = "https://github.com/gandharva26?tab=repositories">
-    <img style = {{borderRadius:"50%"}}src={props.image} width="50px" height="50px" />
+    <img style = {{borderRadius:"50%"}}src={props.image} width="60%" height="150px" />
     </a>
     <p>
       <b>{props.skills}</b>

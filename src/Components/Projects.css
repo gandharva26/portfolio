@@ -12,6 +12,29 @@
     font-size: 60px;
     font-weight: bolder;
   }
+
+ 
+  .card{
+    flex: 0 0 200px; margin: 10px;
+   
+   
+    text-align: center;
+}
+.card img{
+  min-width: 100%;
+  max-height: 140px;
+}
+.texts{
+    padding: 5px; margin-bottom:10px;
+}
+  
+  .card:hover {
+    
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
   
   .projectList {
     width: 70vw;

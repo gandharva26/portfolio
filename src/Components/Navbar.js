@@ -28,12 +28,12 @@ function Navbar ()  {
         </button>
       </div>
         <div className="links">
-        <Link  className='btn' to="/"> <div className="btn">Home</div></Link>
-  <Link className='btn' to="/About"><div className="btn">Milestones</div></Link>
-  <Link  className='btn'  to="/Projects"><div className="btn">Projects</div></Link>
-  <Link  className='btn'  to="/Experience"><div className="btn">Experience</div></Link>
-  <Link  className='btn'  to="/Certifications"><div className="btn">Certifications</div></Link>
-  <Link  className='btn'  to="/Awards"><div className="btn">Awards</div></Link>
+        <Link  className='btn' to="/"> <div className="btn">Home <b style={{float:'right'}}>🏠</b></div></Link>
+  <Link className='btn' to="/About"><div className="btn">Milestones<b style={{float:'right'}}>🚩</b> </div></Link>
+  <Link  className='btn'  to="/Projects"><div className="btn">Projects <b style={{float:'right'}}>🧑🏻‍💻</b></div></Link>
+  <Link  className='btn'  to="/Experience"><div className="btn">Experience<b style={{float:'right'}}>📈</b> </div></Link>
+  <Link  className='btn'  to="/Certifications"><div className="btn">Certifications<b style={{float:'right'}}>📜</b> </div></Link>
+  <Link  className='btn'  to="/Awards"><div className="btn">Awards<b style={{float:'right'}}>🏆</b> </div></Link>
   
   
         </div>

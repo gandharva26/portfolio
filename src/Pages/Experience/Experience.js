@@ -1,6 +1,13 @@
 import { AlignLeft } from 'phosphor-react';
 import React from 'react'
 import aapLogo from '../../assets/products/download-aap.jpeg'
+import mu from '../../assets/products/mu.jpeg'
+import xor from '../../assets/products/xoriant.webp'
+import ucr from '../../assets/products/ucr.png'
+import ts from '../../assets/products/techsk.jpeg'
+import aap from '../../assets/products/aap.jpeg'
+import postman from '../../assets/products/postman.png'
+
 import {
     VerticalTimeline,
     VerticalTimelineElement,
@@ -14,7 +21,9 @@ export const Experience = () => {
         className="vertical-timeline-element--education"
         date="Aug 2019 - Dec 2019"
         iconStyle={{ background: "wheat", color: "#fff" }}
-      
+        icon={<img src={aap} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       >
         <h3 className="vertical-timeline-element-title">
          AAP - Machine Learning - X
@@ -30,7 +39,9 @@ export const Experience = () => {
         className="vertical-timeline-element--education"
         date="Jul 2020 - Oct 2020"
         iconStyle={{ background: "wheat", color: "#fff" }}
-      
+        icon={<img src={ts} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       >
         <h3 className="vertical-timeline-element-title">
           Frontend Developer Intern
@@ -48,6 +59,9 @@ export const Experience = () => {
         className="vertical-timeline-element--education"
         date="Nov 2020 - Aug 2021"
         iconStyle={{ background: "wheat", color: "#fff" }}
+        icon={<img src={xor} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       
       >
         <h3 className="vertical-timeline-element-title">
@@ -78,7 +92,9 @@ by designing 10 dashboards pertaining to data of ~75 business clients.
         className="vertical-timeline-element--work"
         date="Mar 2022- Jun 2022"
         iconStyle={{ background: "#e9d35b", color: "#fff" }}
-   
+        icon={<img src={ucr} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       >
         <h3 className="vertical-timeline-element-title">
           Teaching Assistant
@@ -98,7 +114,9 @@ by designing 10 dashboards pertaining to data of ~75 business clients.
         className="vertical-timeline-element--work"
         date="Jun 2022- Dec 2022"
         iconStyle={{ background: "#e9d35b", color: "#fff" }}
-   
+        icon={<img src={postman} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       >
         <h3 className="vertical-timeline-element-title">
           Software Engineer Intern
@@ -126,7 +144,9 @@ cloud data and detecting performing modules, aimed to improve app performance qu
         className="vertical-timeline-element--work"
         date="Oct 2022- Mar 2023"
         iconStyle={{ background: "#e9d35b", color: "#fff" }}
-   
+        icon={<img src={ucr} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       >
         <h3 className="vertical-timeline-element-title">
           Research Assistant

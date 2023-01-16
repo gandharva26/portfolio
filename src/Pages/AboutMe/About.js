@@ -4,6 +4,13 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import mu from '../../assets/products/mu.jpeg'
+import xor from '../../assets/products/xoriant.webp'
+import ucr from '../../assets/products/ucr.png'
+import ts from '../../assets/products/techsk.jpeg'
+import aap from '../../assets/products/aap.jpeg'
+import postman from '../../assets/products/postman.png'
+
 
 export const About = () => {
   return (
@@ -13,7 +20,9 @@ export const About = () => {
         className="vertical-timeline-element--education"
         date="Aug 2016 - Oct 2020"
         iconStyle={{ background: "wheat", color: "#fff" }}
-
+        icon={<img src={mu} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       >
         <h3 className="vertical-timeline-element-title">
          University Of Mumbai
@@ -24,7 +33,9 @@ export const About = () => {
         className="vertical-timeline-element--education"
         date="Jul 2020 - Oct 2020"
         iconStyle={{ background: "wheat", color: "#fff" }}
-      
+        icon={<img src={ts} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       >
         <h3 className="vertical-timeline-element-title">
           Frontend Developer Intern
@@ -41,7 +52,9 @@ export const About = () => {
         className="vertical-timeline-element--education"
         date="Nov 2020 - Aug 2021"
         iconStyle={{ background: "wheat", color: "#fff" }}
-      
+        icon={<img src={xor} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       >
         <h3 className="vertical-timeline-element-title">
           Associate Software Engineer
@@ -58,7 +71,9 @@ export const About = () => {
         className="vertical-timeline-element--work"
         date="Jun 2022- Dec 2022"
         iconStyle={{ background: "#e9d35b", color: "#fff" }}
-   
+        icon={<img src={postman} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       >
         <h3 className="vertical-timeline-element-title">
           Software Engineer Intern
@@ -73,7 +88,9 @@ export const About = () => {
         className="vertical-timeline-element--education"
         date="Aug 2021 - Mar 2023"
         iconStyle={{ background: "wheat", color: "#fff" }}
-
+        icon={<img src={ucr} height=" 100%"
+        width="100%" style={{borderRadius:"50%"}}
+        />}
       >
         <h3 className="vertical-timeline-element-title">
          University Of California, Riverside

@@ -9,6 +9,7 @@ import useScreenType from 'react-screentype-hook';
 import { useState, useEffect } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import { TextAlignJustify } from 'phosphor-react';
 export const Home = () => {
    
     const screenType = useScreenType();
@@ -49,10 +50,10 @@ export const Home = () => {
             </div>
           <div className="about">
           <button className='emailbutton' onClick={()=>navigate("/CalendlyPage")}><b>Connect with me</b></button>
-            <div className="prompt">
-            <h4> Hey 👋 , I am Gandharva</h4>
-              <h3>A software developer with a passion for web development and data analytics.</h3>
-             
+            <div className="prompt" style={{textDecoration:TextAlignJustify, textAlign:'left'}}>
+            <h3> Hey 👋 , I am Gandharva</h3>
+              <h4>A Software Engineer with a passion for web application development and data analytics.</h4>
+         
             </div>
            
        

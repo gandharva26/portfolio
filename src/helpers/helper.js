@@ -1,29 +1,31 @@
 import Proj1 from "../assets/products/res.jpeg";
 import Proj2 from  "../assets/products/GitHub-Mark.png";
-
-
+import kudos from "../assets/products/kudos.jpeg";
+import mu from "../assets/products/mu.png";
 import Proj3 from  "../assets/products/res.jpeg";
 import Proj4 from  "../assets/products/res.jpeg";
 import Proj5 from  "../assets/products/res.jpeg";
 import Proj6 from  "../assets/products/res.jpeg";
 import oracle from "../assets/products/oracle.png"
-import ms from "../assets/products/microsof.png"
+import ms from "../assets/products/microsoft.jpeg"
 import xoriant from "../assets/products/xoriant.webp"
 import coursera from "../assets/products/coursera.png"
-import mongo from "../assets/products/mongo.png"
+import mongo from "../assets/products/mongo.jpeg"
+import ucrpc from "../assets/products/ucrpc.png"
+
 
 
 export const awardList = [ {
     name: "3rd Prize University of California, Riverside Programming Contest (October '22)",
-    image: Proj1,
+    image: ucrpc,
     date: "Jan 2020",
   },{
   name: "Xoriant's Kudos Award (March '21)",
-  image: Proj1,
+  image: kudos,
   date: "Jan 2020",
 },{
 name: "2nd Rank, Department of Computer Engineer (October '20)",
-image: Proj1,
+image: mu,
 date: "Oct '2020",
 }]
 
