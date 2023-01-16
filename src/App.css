@@ -6,6 +6,7 @@ body{
 
 
 .circle{
+  z-index:-1;
   position: absolute;
   border-radius: 50%;
   background:wheat;
