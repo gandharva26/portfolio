@@ -5,7 +5,7 @@ import { ProjectList } from '../../helpers/helper'
 export const Projects = () => {
   return (
     <div>
-        <h3>Academic Projects</h3>
+    
         <div className="projects">
 
       <div className="projectList">

@@ -6,7 +6,7 @@ export const CertificationTile = (props) => {
     <h1> {props.name}</h1>
     <img src={props.image} width="50px" height="50px" />
     <p>
-      <b>Skills:{props.date}</b>
+      <b>Issued on: {props.date}</b>
     </p>
     
   </div>

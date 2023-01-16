@@ -16,7 +16,7 @@ import { CalendlyPage } from './Pages/CalendlyPage/CalendlyPage';
 function App() {
  
   return (
-    <div className="App">
+    <div className="App" style={{zIndex:1}}>
       <div className = "font-link">
       
      <Router>

@@ -28,12 +28,12 @@ function Navbar ()  {
         </button>
       </div>
         <div className="links">
-        <Link  className='btn' to="/"> Home</Link>
-  <Link className='btn' to="/About">Milestones</Link>
-  <Link  className='btn'  to="/Projects">Projects</Link>
-  <Link  className='btn'  to="/Experience">Experience</Link>
-  <Link  className='btn'  to="/Certifications">Certifications</Link>
-  <Link  className='btn'  to="/Awards">Awards</Link>
+        <Link  className='btn' to="/"> <div className="btn">Home</div></Link>
+  <Link className='btn' to="/About"><div className="btn">Milestones</div></Link>
+  <Link  className='btn'  to="/Projects"><div className="btn">Projects</div></Link>
+  <Link  className='btn'  to="/Experience"><div className="btn">Experience</div></Link>
+  <Link  className='btn'  to="/Certifications"><div className="btn">Certifications</div></Link>
+  <Link  className='btn'  to="/Awards"><div className="btn">Awards</div></Link>
   
   
         </div>

@@ -4,7 +4,7 @@ import { CertificationTile } from '../../Components/CertificationTile'
 export const Certifications = () => {
   return (
     <div>
-    <h3>Certifications</h3>
+  
     <div className="projects">
 
   <div className="projectList">

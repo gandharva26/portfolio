@@ -1,15 +1,16 @@
 body{
-  background: white;
+  background: black;
   font-family: 'Lato';
+
 }
 
 
 .circle{
   position: absolute;
   border-radius: 50%;
-  background: wheat;
+  background:wheat;
   animation: ripple 15s infinite;
-  box-shadow: 0px 0px 1px 0px #508fb9;
+  box-shadow: 0px 0px 1px 0px wheat;
 }
 
 .small{

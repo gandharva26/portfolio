@@ -4,16 +4,22 @@ import mypic from '../../assets/products/WhatsApp Image 2022-12-30 at 7.38.04 PM
 import '../../Components/Projects.css'
 import pic2 from '../../assets/products/IMG_3024.jpg'
 import pic3 from '../../assets/products/WhatsApp Image 2022-12-14 at 11.14.19 AM.jpeg'
-import { useNavigate } from 'react-router-dom'   
+import { useNavigate, useLocation } from 'react-router-dom'  
+import useScreenType from 'react-screentype-hook'; 
+import { useState, useEffect } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 export const Home = () => {
+   
+    const screenType = useScreenType();
     const navigate = useNavigate()
+    console.log(screenType.isMobile)
+    
     return (
         <div>
         <div className="home">
-       
-            <div className='content'>
+        
+            <div className='content' id={screenType.isMobile ? "Mobile" : ""}  >
                  <div className='picture'>
               
  <Carousel
