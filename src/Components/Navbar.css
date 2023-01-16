@@ -39,13 +39,13 @@
     }
     .btn:focus{
       background-color: whitesmoke;
-
+    
       color:black;
      
     }
     .btn:active{
       color:whitesmoke;
-    
+      box-shadow: 0 5px 15px whitesmoke;
     }
     .btn {
       width:100%;
@@ -58,6 +58,7 @@
     
     /* Style the active class (and buttons on mouse-over) */
    .btn:hover {
+    box-shadow: 0 5px 15px whitesmoke;
       background-color: whitesmoke;
       color:black;
 
@@ -104,6 +105,7 @@
 }
 
 #open {
+  box-shadow: None !important;
   height: 10%vh;
 }
 
