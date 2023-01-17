@@ -129,6 +129,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .navbar{
+    box-shadow: None !important;
+  }
   .toggleButton {
     display: flex;
   }
